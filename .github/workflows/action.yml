@@ -9,6 +9,7 @@ name: Hello world
     workflow_dispatch:
 
 jobs:
+# name of the job
   hello:
     runs-on: ubuntu-latest
     steps:
